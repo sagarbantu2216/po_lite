@@ -1,0 +1,44 @@
+.file-main {
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+}
+.upload-button {
+  padding: 15px;
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  display: block;
+  border-radius: 10pc;
+}
+
+.upload-button:hover {
+  background-color: #0056b3;
+}
+.uploaded-files li {
+  list-style: none !important;
+    margin-bottom: 10px;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    word-wrap: break-word;
+}
+ul{
+  padding: 0;
+  margin: 0;
+}
+/* UploadFile.css */
+.toastify {
+  white-space: nowrap;
+}
+
+.toastify .Toastify__toast {
+  white-space: nowrap;
+}
+
+.toastify .Toastify__toast-body {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
